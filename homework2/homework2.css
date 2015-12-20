@@ -1,0 +1,40 @@
+/* Basic Layout */
+
+.container {
+    max-width: 960px;
+    padding: 0px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: #95CD31;
+    font-family: serif;
+}
+
+span {
+    list-style: none;
+    color: #85A548;
+}
+
+.photo {
+    float: right;
+    text-align: right;
+}
+
+.photo a {
+    display: block;
+    text-decoration: none;
+    color: #85A548;
+}
+
+h2 {
+    font-size: 30px;
+    color: #2A512C;
+    font-family: serif;
+}
+
+img {
+    max-width: 350px;
+    float: right;
+}
