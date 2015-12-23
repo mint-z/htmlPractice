@@ -1,0 +1,72 @@
+/*----menu的設定----*/
+
+ul {
+    /*項目清單去掉點點*/
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    /*排成一排*/
+    display: block;
+    float: left;
+}
+
+li a {
+    padding: 15px;
+    /*去掉超連結底線*/
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+    top: 0;
+}
+
+.menu ul li:hover > div {
+    display: block;
+}
+
+.menu {
+    max-width: 500px;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-bottom: 0px;
+    top: 0;
+    height: 60px;
+}
+
+.item1 {
+    max-width: 100px;
+    height: 100px;
+    color: black;
+    padding: 10px;
+    background-color: #E4DEDE;
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+.item2 {
+    max-width: 100px;
+    height: 100px;
+    color: black;
+    padding: 10px;
+    background-color: #E4DE6B;
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+.item3 {
+    max-width: 100px;
+    height: 100px;
+    color: black;
+    padding: 10px;
+    background-color: #E4DE12;
+    position: absolute;
+    top: 60px;
+    display: none;
+}
